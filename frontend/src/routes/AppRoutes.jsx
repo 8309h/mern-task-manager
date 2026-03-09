@@ -1,0 +1,27 @@
+import { Routes, Route } from "react-router-dom";
+
+import Login from "../pages/auth/Login";
+import Register from "../pages/auth/Register";
+import Dashboard from "../pages/Dashboard";
+import BoardPage from "../pages/BoardPage";
+
+function AppRoutes() {
+
+      return (
+
+            <Routes>
+
+                  <Route path="/" element={<Login />} />
+
+                  <Route path="/register" element={<Register />} />
+
+                  <Route path="/dashboard" element={<Dashboard />} />
+
+                  <Route path="/board/:id" element={<BoardPage />} />
+
+            </Routes>
+
+      );
+}
+
+export default AppRoutes;

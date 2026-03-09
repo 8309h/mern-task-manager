@@ -1,0 +1,38 @@
+/* Tablet */
+
+@media (max-width: 1024px) {
+
+      .board-container {
+
+            flex-direction: column;
+
+      }
+
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+      .board-card {
+
+            width: 100%;
+
+      }
+
+      .list-column {
+
+            width: 100%;
+
+      }
+
+      .navbar {
+
+            flex-direction: column;
+
+            gap: 10px;
+
+            align-items: flex-start;
+
+      }
+}

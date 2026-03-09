@@ -1,0 +1,55 @@
+.navbar {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      padding: 12px 20px;
+
+      background: #0079bf;
+
+      color: white;
+
+}
+
+.logo {
+
+      font-size: 20px;
+
+      font-weight: bold;
+
+      cursor: pointer;
+
+}
+
+.nav-right {
+
+      display: flex;
+
+      gap: 10px;
+
+}
+
+.logout-btn {
+
+      background: white;
+
+      color: #0079bf;
+
+      border: none;
+
+      padding: 6px 12px;
+
+      border-radius: 6px;
+
+      cursor: pointer;
+
+}
+
+.logout-btn:hover {
+
+      background: #f0f0f0;
+
+}
